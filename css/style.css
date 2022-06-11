@@ -1,0 +1,16 @@
+.imagHeader, .imagPost{
+    width: 500px;
+}
+
+#title, .subtitle, .post_title{
+    color:blue;
+
+
+}
+.subtitle{
+
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
