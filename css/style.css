@@ -1,11 +1,22 @@
+body{
+    background: rgb(221, 221, 222);
+}
+
+.post{
+    background: rgb(205, 211, 216);
+    padding: 15px;
+    border: 5px solid black;
+    margin: 0Px;
+    margin-bottom: 15px;
+}
+
 .imagHeader, .imagPost{
-    width: 500px;
+    width: 800px;
+    margin-bottom: 15px;
 }
 
 #title, .subtitle, .post_title{
-    color:blue;
-
-
+    color: rgba(37, 36, 36, 0.779);
 }
 .subtitle{
 
@@ -13,4 +24,11 @@
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 9;
+    margin-bottom: 15px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+
 }
