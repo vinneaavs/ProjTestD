@@ -1,6 +1,8 @@
 body{
     background: rgb(221, 221, 222);
     font-family: verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .post{
@@ -10,20 +12,26 @@ body{
     margin: 0Px;
     margin-bottom: 15px;
     border-radius: 3%;
+    text-align: justify;
 
 }
 
 .imagHeader, .imagPost{
-    width: 800px;
+    
     margin-bottom: 15px;
     border-radius: 3%;
 
+}
+
+.imagHeader{
+    width: 100%;
 }
 
 .imagPost{
     margin-bottom: 15px;
     height: 400px;
     text-align: center;
+    width: 100%;
 }
 
 #title, .subtitle, .post_title{
@@ -53,4 +61,13 @@ a{
     text-decoration: line-through;
     color:#505050;
 
+}
+
+.contact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a{
+    text-decoration: none;
 }
